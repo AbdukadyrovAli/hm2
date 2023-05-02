@@ -1,0 +1,49 @@
+.movie-element {
+  background-color: #b3b5cfce;
+  margin: 12px 0;
+  border-radius: 10px;
+  display: flex;
+  width: 700px;
+  box-shadow: black 10px 20px 10px 10px;
+  margin-top: 40px;
+}
+
+.movie-element h2,
+.movie-element p {
+  font-size: 1.25rem;
+  margin: 0;
+}
+.movie-element h2 {
+  color: #ececec;
+  margin-bottom: 16px;
+}
+.movie-element p {
+  color: rgb(253, 253, 253);
+  display: inline;
+  background: yellow;
+  padding: 4px 16px;
+  border-radius: 15px;
+  height: 30px;
+  color: black;
+}
+.movie-element-image {
+  flex: 1;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+}
+.movie-element-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.movie-element-info {
+  flex: 2;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-element-info > div {
+  display: flex;
+  justify-content: space-between;
+}
